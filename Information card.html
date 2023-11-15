@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+      
+        body {
+            background: url('./background.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .column1 {
+            width: 300px;
+            display: flexbox;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around; 
+            text-align: left;
+            border-right: 2px solid rgba(255, 255, 255, 0.2);
+            padding-right: 10px;
+        }
+
+        .column2 {
+            width: 470px;
+            margin-left: 30px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            width: 900px;
+            height: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1{
+            display: flex;
+            margin: auto;
+            font-size: large;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+        }
+
+        h1{
+            display: flex;
+            margin: auto;
+            font-size: large;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+        .section2 {
+            margin-bottom: 20px;
+            margin-top: 0px;
+        }
+        .info_box {
+            background: rgba( 255, 255, 255, 0 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px dashed rgb(255, 255, 255);
+            padding: 20px;
+            margin-bottom: 10px;
+            align-items: center;
+            display: flex;
+            justify-content: left;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="column1">
+                <div class="img">
+                    <img src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" alt="description of the image" style="width: 50%; margin: auto; display: flex; margin-bottom: 20px;">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/14/Balltze_%28Cheems%29.jpg" alt="description of the image" style="width: 80%; aspect-ratio: 1 / 1; border-radius: 50%; margin: auto; display: flex; margin-bottom: 20px;">
+                </div>
+                <h1>
+                    NGUYỄN LÊ PHONG
+                </h1>
+                <div class="section">
+                    <p>KHMT2023.3</p>
+                </div>
+                <div class="section">
+                    <p>University of Information Technology</p>
+                </div>
+                <div class="section">
+                    <p>KTX khu B</p>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="section2">
+                    <h2>About me</h2>
+                    <p>
+                        một người trầm tính :3
+                    </p>
+                </div>
+                <div class="section2">
+                    <h2>Sở thích</h2>
+                    <p>Mình cũng thích tham gia các hoạt động ngoại khóa và các sự kiện tại trường. Mình thích đi ăn, chơi game và lập trình trong thời gian rảnh.  
+                        Món gì mình cũng ăn, miễn ngon là được. Còn game mình hay chơi nhất Team Fight Tactic (aka. Cờ nhân phẩm). Bạn nào cũng đam mê cờ có thể liên hệ mình :></p>
+                </div>
+                <div class="section2">
+                    <h2>Contact me</h2>
+                    <div class="info_box">
+                        <a href="https://www.facebook.com/quyen.lethi.5623/">
+                            <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Facebook.svg" alt="error">
+                        </a>
+                        <a href="https://github.com/kllp031">
+                            <img src="https://raw.githubusercontent.com/dheereshagrwal/colored-icons/ba0f2cbb8690addd525c73d340cc8e46044ee604/icons/github/github.svg" alt="error" style="height: 48px; margin-left: 20px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
